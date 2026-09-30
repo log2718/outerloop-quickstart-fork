@@ -1,0 +1,15 @@
+[
+ {
+  "run_id": "denoise-20260930-033033-agent-01",
+  "agent": "agent-01",
+  "ended": "2026-09-30 04:00:04",
+  "outcome": "aborted",
+  "baseline": 0.010037478730144574,
+  "candidate": null,
+  "gpu_hours": 0.0,
+  "hypothesis": "",
+  "pr_url": "",
+  "report": "reports/2026-09-30-denoise-20260930-033033-agent-01.md",
+  "note": "success"
+ }
+]
