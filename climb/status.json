@@ -1,13 +1,13 @@
 {
  "target": "log2718/outerloop-quickstart-fork",
- "published": 1790787603.0148263,
+ "published": 1790789403.175385,
  "runs": [],
  "queue": [
   {
    "id": "18859845",
    "name": "outerloop-resident",
    "state": "RUNNING",
-   "elapsed": "4:54:08",
+   "elapsed": "5:24:04",
    "partition": "cpu_short",
    "submitted": "2026-09-30T02:25:54",
    "reason": "None",
@@ -27,19 +27,6 @@
    "gres": "N/A",
    "limit": "6:00:00",
    "agent": "",
-   "run_id": ""
-  },
-  {
-   "id": "18881622",
-   "name": "climb-tsp-agent-01",
-   "state": "PENDING",
-   "elapsed": "0:00",
-   "partition": "cpu_short,cs",
-   "submitted": "2026-09-30T13:00:10",
-   "reason": "None",
-   "gres": "N/A",
-   "limit": "2:00:00",
-   "agent": "agent-01",
    "run_id": ""
   }
  ]
