@@ -1,14 +1,4 @@
 {
-  "tsp": {
-    "benchmark": "tsp",
-    "metric": "mean_tour_length",
-    "direction": "min",
-    "baseline": 13.875696168157484,
-    "best": 13.875696168157484,
-    "best_run": "baseline",
-    "updated": "2026-09-06",
-    "run_seed": 0
-  },
   "denoise": {
     "benchmark": "denoise",
     "metric": "mean_mse",
@@ -17,6 +7,26 @@
     "best": 0.010037478730144574,
     "best_run": "baseline",
     "updated": "2026-09-06",
-    "run_seed": 20260809
+    "run_seed": 20260809,
+    "main_commit": "",
+    "measured_sha": "",
+    "measurement_signature": "",
+    "reset_commit": "",
+    "ruler": ""
+  },
+  "tsp": {
+    "benchmark": "tsp",
+    "metric": "mean_tour_length",
+    "direction": "min",
+    "baseline": 13.875696168157484,
+    "best": 13.875696168157484,
+    "best_run": "baseline",
+    "updated": "2026-09-06",
+    "run_seed": 0,
+    "main_commit": "",
+    "measured_sha": "",
+    "measurement_signature": "",
+    "reset_commit": "",
+    "ruler": ""
   }
 }
