@@ -11,5 +11,18 @@
   "pr_url": "",
   "report": "reports/2026-09-30-tsp-20260930-040444-agent-01.md",
   "note": "success"
+ },
+ {
+  "run_id": "tsp-20260930-103048-agent-01",
+  "agent": "agent-01",
+  "ended": "2026-09-30 11:00:03",
+  "outcome": "aborted",
+  "baseline": 13.875696168157484,
+  "candidate": null,
+  "gpu_hours": 0.0,
+  "hypothesis": "",
+  "pr_url": "",
+  "report": "reports/2026-09-30-tsp-20260930-103048-agent-01.md",
+  "note": "success"
  }
 ]
