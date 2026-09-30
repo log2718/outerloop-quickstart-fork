@@ -1,3 +1,4 @@
 {
- "denoise": "min"
+ "denoise": "min",
+ "tsp": "min"
 }

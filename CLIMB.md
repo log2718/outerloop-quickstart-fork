@@ -12,3 +12,11 @@ Attempts: **1** (0 improved) · best candidate: **—** (min) · baseline (start
 | ended (UTC) | agent | hypothesis | outcome | candidate | GPU-h | full |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026-09-30 04:00:04 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-denoise-20260930-033033-agent-01.md) |
+
+## tsp
+
+Attempts: **1** (0 improved) · best candidate: **—** (min) · baseline (start): **13.875696168157484** · GPU-hours: **0.0**
+
+| ended (UTC) | agent | hypothesis | outcome | candidate | GPU-h | full |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-30 04:30:05 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-tsp-20260930-040444-agent-01.md) |
