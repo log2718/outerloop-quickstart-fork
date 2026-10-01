@@ -1,6 +1,6 @@
 {
  "target": "log2718/outerloop-quickstart-fork",
- "published": 1790810789.955043,
+ "published": 1790812803.1550374,
  "runs": [
   {
    "run_id": "denoise-20260930-230134-agent-01",
@@ -13,7 +13,7 @@
    "phase": "",
    "direction": "",
    "hypothesis": "",
-   "since": 1790810789.955043,
+   "since": 1790810821.0107977,
    "launches_used": 0,
    "sleeps_used": 1,
    "depth_k": 12,
@@ -25,28 +25,15 @@
    "gpu_hours_used": 0.0,
    "gpu_hours_budget": 0.5,
    "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/2",
-   "waiting": "wake"
+   "waiting": "review"
   }
  ],
  "queue": [
   {
-   "id": "18902201",
-   "name": "wake-denoise-20260930-230134-agent-01",
-   "state": "RUNNING",
-   "elapsed": "0:05",
-   "partition": "cpu_short",
-   "submitted": "2026-09-30T19:26:37",
-   "reason": "None",
-   "gres": "N/A",
-   "limit": "1:30:00",
-   "agent": "agent-01",
-   "run_id": "denoise-20260930-230134-agent-01"
-  },
-  {
    "id": "18883267",
    "name": "outerloop-resident",
    "state": "RUNNING",
-   "elapsed": "0:17",
+   "elapsed": "33:45",
    "partition": "cpu_short",
    "submitted": "2026-09-30T13:46:25",
    "reason": "None",
