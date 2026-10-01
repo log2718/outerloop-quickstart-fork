@@ -1,0 +1,19 @@
+{
+  "benchmark": "tsp",
+  "metric": "mean_tour_length",
+  "direction": "min",
+  "baseline": 13.875696168157484,
+  "candidate": 12.894450662755354,
+  "run_id": "tsp-20261001-180047-agent-01",
+  "run_seed": 0,
+  "ruler": "9bd2fd616131771046c3d595d9e2a44180df2247b85fd56b4d1a61853986c74c",
+  "measurement_signature": "[[\"baseline\",\"'paired'\"],[\"command\",\"'uv run python -m quickstart.eval --env tsp --json'\"],[\"direction\",\"'min'\"],[\"eval_minutes\",\"None\"],[\"gpus\",\"0\"],[\"metric\",\"'mean_tour_length'\"],[\"min_delta\",\"None\"],[\"min_delta_rel\",\"None\"],[\"name\",\"'tsp'\"],[\"seed_env\",\"None\"]]",
+  "measured_sha": "e227efc12ff9a0abbb083e9ac0545c919bad2510",
+  "pr_number": 3,
+  "published_head": "e227efc12ff9a0abbb083e9ac0545c919bad2510",
+  "timestamp": "2026-10-01",
+  "kind": "SOLVER",
+  "status": "PENDING",
+  "min_delta": 0.0,
+  "min_delta_rel": 0.0
+}
