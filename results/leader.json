@@ -4,15 +4,15 @@
     "metric": "mean_mse",
     "direction": "min",
     "baseline": 0.010037478730144574,
-    "best": 0.010037478730144574,
-    "best_run": "baseline",
-    "updated": "2026-09-06",
-    "run_seed": 20260809,
-    "main_commit": "",
-    "measured_sha": "",
-    "measurement_signature": "",
+    "best": 0.006069407196618045,
+    "best_run": "denoise-20260930-230134-agent-01",
+    "updated": "2026-09-30",
+    "run_seed": 885268893,
+    "main_commit": "b9f04f37ca424097bbd37a2a59c5a35c68b082df",
+    "measured_sha": "4682484e13593848acc6875af5fe11b7ff9f773e",
+    "measurement_signature": "[[\"baseline\",\"'paired'\"],[\"command\",\"'uv run python -m quickstart.eval --env denoise --json'\"],[\"direction\",\"'min'\"],[\"eval_minutes\",\"None\"],[\"gpus\",\"0\"],[\"metric\",\"'mean_mse'\"],[\"min_delta\",\"0.0002\"],[\"min_delta_rel\",\"None\"],[\"name\",\"'denoise'\"],[\"seed_env\",\"'QUICKSTART_DENOISE_SEED'\"]]",
     "reset_commit": "",
-    "ruler": ""
+    "ruler": "71c2026af8cb57bd0f4b4fecae120aaf553fdcacfb61c8b63d527fb99c894946"
   },
   "tsp": {
     "benchmark": "tsp",
