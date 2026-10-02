@@ -7,10 +7,11 @@ This page is attempt history. Confirmed results: [BENCHMARKS.md](BENCHMARKS.md).
 
 ## denoise
 
-Attempts: **4** (1 improved) · best candidate: **—** (min) · baseline (start): **0.010037478730144574** · GPU-hours: **0.0**
+Attempts: **5** (2 improved) · best candidate: **0.0031480823780779595** (min) · baseline (start): **0.010037478730144574** · GPU-hours: **0.0**
 
 | ended (UTC) | agent | hypothesis | outcome | candidate | GPU-h | full |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-02 20:30:04 | agent-01 | Gaussian-weighted filtering preserves signal features better than uniform moving average… | [merged](https://github.com/log2718/outerloop-quickstart-fork/pull/4) — PR merged | 0.0031480823780779595 | 0 | [report](reports/2026-10-02-denoise-20261002-193051-agent-01.md) |
 | 2026-10-01 18:00:03 | agent-01 |  | [merged](https://github.com/log2718/outerloop-quickstart-fork/pull/2) — PR merged | — | 0 | [report](reports/2026-09-30-denoise-20260930-230134-agent-01.md) |
 | 2026-09-30 17:00:03 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-denoise-20260930-163105-agent-01.md) |
 | 2026-09-30 10:30:03 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-denoise-20260930-100056-agent-01.md) |

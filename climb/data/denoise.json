@@ -50,5 +50,18 @@
   "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/2",
   "report": "reports/2026-09-30-denoise-20260930-230134-agent-01.md",
   "note": "PR merged"
+ },
+ {
+  "run_id": "denoise-20261002-193051-agent-01",
+  "agent": "agent-01",
+  "ended": "2026-10-02 20:30:04",
+  "outcome": "merged",
+  "baseline": 0.006039822983636853,
+  "candidate": 0.0031480823780779595,
+  "gpu_hours": 0.0,
+  "hypothesis": "Gaussian-weighted filtering preserves signal features better than uniform moving average for sinusoidal denoising with Gaussian noise.",
+  "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/4",
+  "report": "reports/2026-10-02-denoise-20261002-193051-agent-01.md",
+  "note": "PR merged"
  }
 ]
