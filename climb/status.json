@@ -1,13 +1,39 @@
 {
  "target": "log2718/outerloop-quickstart-fork",
- "published": 1790969403.4053416,
- "runs": [],
+ "published": 1790971203.5212693,
+ "runs": [
+  {
+   "run_id": "denoise-20261002-193051-agent-01",
+   "agent": "agent-01",
+   "author_backend": "claude",
+   "author_model": "claude-haiku-4-5",
+   "author_overridden": false,
+   "benchmark": "denoise",
+   "state": "parked",
+   "phase": "",
+   "direction": "",
+   "hypothesis": "",
+   "since": 1790971203.5212693,
+   "launches_used": 0,
+   "sleeps_used": 1,
+   "depth_k": 12,
+   "sleep_k": 24,
+   "exp_done": 0,
+   "exp_total": 0,
+   "exp_minutes": 0,
+   "eval_minutes": 0,
+   "gpu_hours_used": 0.0,
+   "gpu_hours_budget": 0.5,
+   "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/4",
+   "waiting": "wake"
+  }
+ ],
  "queue": [
   {
    "id": "19023143",
    "name": "outerloop-resident",
    "state": "RUNNING",
-   "elapsed": "4:21:19",
+   "elapsed": "4:51:15",
    "partition": "cpu_short",
    "submitted": "2026-10-02T05:28:23",
    "reason": "None",
@@ -17,17 +43,17 @@
    "run_id": ""
   },
   {
-   "id": "19058958",
-   "name": "climb-denoise-agent-01",
+   "id": "19062355",
+   "name": "wake-denoise-20261002-193051-agent-01",
    "state": "PENDING",
    "elapsed": "0:00",
    "partition": "cpu_short,cs",
-   "submitted": "2026-10-02T15:30:15",
+   "submitted": "2026-10-02T16:00:10",
    "reason": "None",
    "gres": "N/A",
-   "limit": "2:00:00",
+   "limit": "1:30:00",
    "agent": "agent-01",
-   "run_id": ""
+   "run_id": "denoise-20261002-193051-agent-01"
   },
   {
    "id": "19038618",
