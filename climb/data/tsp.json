@@ -37,5 +37,18 @@
   "pr_url": "",
   "report": "reports/2026-09-30-tsp-20260930-170138-agent-01.md",
   "note": "success"
+ },
+ {
+  "run_id": "tsp-20261001-180047-agent-01",
+  "agent": "agent-01",
+  "ended": "2026-10-02 19:30:03",
+  "outcome": "merged",
+  "baseline": null,
+  "candidate": null,
+  "gpu_hours": 0.0,
+  "hypothesis": "The baseline nearest neighbor starting from city 0 is an arbitrary greedy choice that often yields suboptimal tours. By trying multiple starting cities and selecting the best result, we can significantly improve solution quality without sacrificing runtime.",
+  "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/3",
+  "report": "reports/2026-10-01-tsp-20261001-180047-agent-01.md",
+  "note": "PR merged"
  }
 ]
