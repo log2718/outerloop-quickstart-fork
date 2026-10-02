@@ -50,5 +50,18 @@
   "pr_url": "https://github.com/log2718/outerloop-quickstart-fork/pull/3",
   "report": "reports/2026-10-01-tsp-20261001-180047-agent-01.md",
   "note": "PR merged"
+ },
+ {
+  "run_id": "tsp-20261002-203225-agent-01",
+  "agent": "agent-01",
+  "ended": "2026-10-02 20:49:45",
+  "outcome": "aborted",
+  "baseline": 12.894450662755354,
+  "candidate": null,
+  "gpu_hours": 0.0,
+  "hypothesis": "Nearest neighbor tours have crossing edges that can be eliminated with 2-opt local search.",
+  "pr_url": "",
+  "report": "reports/2026-10-02-tsp-20261002-203225-agent-01.md",
+  "note": "out-of-scope paths: RESEARCH_REPORT.md"
  }
 ]

@@ -19,10 +19,11 @@ Attempts: **5** (2 improved) · best candidate: **0.0031480823780779595** (min) 
 
 ## tsp
 
-Attempts: **4** (1 improved) · best candidate: **—** (min) · baseline (start): **13.875696168157484** · GPU-hours: **0.0**
+Attempts: **5** (1 improved) · best candidate: **—** (min) · baseline (start): **13.875696168157484** · GPU-hours: **0.0**
 
 | ended (UTC) | agent | hypothesis | outcome | candidate | GPU-h | full |
 | --- | --- | --- | --- | --- | --- | --- |
+| 2026-10-02 20:49:45 | agent-01 | Nearest neighbor tours have crossing edges that can be eliminated with 2-opt local search. | aborted — out-of-scope paths: RESEARCH_REPORT.md | — | 0 | [report](reports/2026-10-02-tsp-20261002-203225-agent-01.md) |
 | 2026-10-02 19:30:03 | agent-01 | The baseline nearest neighbor starting from city 0 is an arbitrary greedy choice that… | [merged](https://github.com/log2718/outerloop-quickstart-fork/pull/3) — PR merged | — | 0 | [report](reports/2026-10-01-tsp-20261001-180047-agent-01.md) |
 | 2026-09-30 17:30:03 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-tsp-20260930-170138-agent-01.md) |
 | 2026-09-30 11:00:03 | agent-01 |  | aborted — success | — | 0 | [report](reports/2026-09-30-tsp-20260930-103048-agent-01.md) |
