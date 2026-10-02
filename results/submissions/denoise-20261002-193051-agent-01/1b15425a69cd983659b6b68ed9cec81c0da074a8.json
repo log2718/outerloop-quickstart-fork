@@ -1,0 +1,19 @@
+{
+  "benchmark": "denoise",
+  "metric": "mean_mse",
+  "direction": "min",
+  "baseline": 0.006039822983636853,
+  "candidate": 0.0031480823780779595,
+  "run_id": "denoise-20261002-193051-agent-01",
+  "run_seed": 327367642,
+  "ruler": "71c2026af8cb57bd0f4b4fecae120aaf553fdcacfb61c8b63d527fb99c894946",
+  "measurement_signature": "[[\"baseline\",\"'paired'\"],[\"command\",\"'uv run python -m quickstart.eval --env denoise --json'\"],[\"direction\",\"'min'\"],[\"eval_minutes\",\"None\"],[\"gpus\",\"0\"],[\"metric\",\"'mean_mse'\"],[\"min_delta\",\"0.0002\"],[\"min_delta_rel\",\"None\"],[\"name\",\"'denoise'\"],[\"seed_env\",\"'QUICKSTART_DENOISE_SEED'\"]]",
+  "measured_sha": "1b15425a69cd983659b6b68ed9cec81c0da074a8",
+  "pr_number": 4,
+  "published_head": "1b15425a69cd983659b6b68ed9cec81c0da074a8",
+  "timestamp": "2026-10-02",
+  "kind": "SOLVER",
+  "status": "PENDING",
+  "min_delta": 0.0002,
+  "min_delta_rel": 0.0
+}
